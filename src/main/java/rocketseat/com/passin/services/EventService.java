@@ -11,7 +11,6 @@ import rocketseat.com.passin.dto.attendee.AttendeeRequestDTO;
 import rocketseat.com.passin.dto.event.EventIdDTO;
 import rocketseat.com.passin.dto.event.EventRequestDTO;
 import rocketseat.com.passin.dto.event.EventResponseDTO;
-import rocketseat.com.passin.repositories.AttendeeRepository;
 import rocketseat.com.passin.repositories.EventRepository;
 
 import java.text.Normalizer;
