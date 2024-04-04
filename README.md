@@ -8,6 +8,12 @@ Os participantes inscritos podem emitir uma credencial para check-in no dia do e
 
 O sistema fará um scan da credencial do participante para permitir a entrada no evento.
 
+## Tecnologias Utilizadas
+
+* Java 17
+* Spring Boot
+* HSQLDB
+
 ## Requisitos
 
 ### Requisitos funcionais
@@ -35,7 +41,7 @@ Para documentação da API, acesse o link: https://nlw-unite-nodejs.onrender.com
 
 ## Banco de dados
 
-Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o SQLite pela facilidade do ambiente.
+Nessa aplicação vamos utilizar banco de dados relacional (SQL). Para ambiente de desenvolvimento seguiremos com o HSQLDB pela facilidade do ambiente.
 
 ### Diagrama ERD
 
