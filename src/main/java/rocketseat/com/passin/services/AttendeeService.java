@@ -25,9 +25,9 @@ public class AttendeeService {
     }
 
     public AttendeesListResponseDTO getEventsAttendees(String eventId) {
-        List<Attendee> attendeeList = this.getAttendeesFromEvents(eventId);
+        List<Attendee> attendeesList = this.getAttendeesFromEvents(eventId);
 
-        List<AttendeeDetailsDTO> attendeeDetailsList = attendeeList.stream().map(attendee -> {
+        List<AttendeeDetailsDTO> attendeeDetailsList = attendeesList.stream().map(attendee -> {
             Optional<Checkin> checkin = this.checkinRepository.findByAttendeeId(attendee.getId());
             LocalDateTime checkedInAt = checkin.<LocalDateTime>map(Checkin::getCreatedAt).orElse(null);
             return new AttendeeDetailsDTO(
