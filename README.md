@@ -10,9 +10,9 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ## Tecnologias Utilizadas
 
-* Java 17
-* Spring Boot
-* HSQLDB
+* Java 17 <img src=".github/java.svg" width="600" alt="Logo do Java" />
+* Spring Boot <img src=".github/spring_boot.svg" width="600" alt="Logo do Java" />
+* HSQLDB <img src=".github/hsqldb.svg" width="600" alt="Logo do Java" />
 
 ## Requisitos
 
